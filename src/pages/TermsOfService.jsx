@@ -216,16 +216,16 @@ function TermsOfService() {
               
               <div className="contact-method">
                 <h4>Phone</h4>
-                <p>+1 (555) 123-4567</p>
+                <p>+92 21 3456-7890</p>
               </div>
               
               <div className="contact-method">
                 <h4>Mail</h4>
                 <p>
                   United Pharma - Legal Department<br />
-                  123 Pharmaceutical Drive<br />
-                  Medical District, NY 10001<br />
-                  United States
+                  Plot 45-A, Sector 22, SITE<br />
+                  Karachi, Sindh 75700<br />
+                  Pakistan
                 </p>
               </div>
             </div>

@@ -142,7 +142,7 @@ public/
 Create a `.env.local` file for local development:
 ```env
 VITE_API_BASE_URL=http://localhost:8000
-VITE_CONTACT_EMAIL=info@unitedpharma.com
+VITE_CONTACT_EMAIL=info@unitedpharma.pk
 ```
 
 ### Build Configuration
@@ -189,9 +189,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 **United Pharma**
-- Website: [https://unitedpharma.com](https://unitedpharma.com)
-- Email: info@unitedpharma.com
-- Phone: +1 (555) 123-4567
+- Website: [https://unitedpharma.pk](https://unitedpharma.pk)
+- Email: info@unitedpharma.pk
+- Phone: +92 21 3456-7890
+- Address: Plot 45-A, Sector 22, SITE, Karachi, Sindh 75700, Pakistan
 
 **Developer**
 - GitHub: [@ubaidsaif2244](https://github.com/ubaidsaif2244)

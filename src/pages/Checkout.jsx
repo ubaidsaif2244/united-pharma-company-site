@@ -15,7 +15,7 @@ function Checkout() {
     shippingAddress: '',
     shippingCity: '',
     shippingZip: '',
-    shippingCountry: 'United States',
+    shippingCountry: 'Pakistan',
     deliveryMethod: 'standard',
     
     // Billing Information
@@ -23,7 +23,7 @@ function Checkout() {
     billingAddress: '',
     billingCity: '',
     billingZip: '',
-    billingCountry: 'United States',
+    billingCountry: 'Pakistan',
     
     // Payment
     paymentMethod: 'card',
@@ -243,10 +243,10 @@ function Checkout() {
                       value={formData.shippingCountry}
                       onChange={handleInputChange}
                     >
-                      <option value="United States">United States</option>
-                      <option value="Canada">Canada</option>
-                      <option value="United Kingdom">United Kingdom</option>
-                      <option value="Australia">Australia</option>
+                      <option value="Pakistan">Pakistan</option>
+                      <option value="India">India</option>
+                      <option value="Bangladesh">Bangladesh</option>
+                      <option value="United Arab Emirates">United Arab Emirates</option>
                     </select>
                   </div>
                 </div>

@@ -62,9 +62,9 @@ function AppFooter() {
                   </svg>
                 </div>
                 <div className="contact-details">
-                  <p>123 Pharmaceutical Drive</p>
-                  <p>Medical District, NY 10001</p>
-                  <p>United States</p>
+                  <p>Plot 45-A, Sector 22, SITE</p>
+                  <p>Karachi, Sindh 75700</p>
+                  <p>Pakistan</p>
                 </div>
               </div>
               
@@ -75,8 +75,8 @@ function AppFooter() {
                   </svg>
                 </div>
                 <div className="contact-details">
-                  <p>+1 (555) 123-4567</p>
-                  <p>+1 (555) 123-4568</p>
+                  <p>+92 21 3456-7890</p>
+                  <p>+92 21 3456-7891</p>
                 </div>
               </div>
               
@@ -88,8 +88,8 @@ function AppFooter() {
                   </svg>
                 </div>
                 <div className="contact-details">
-                  <p>info@unitedpharma.com</p>
-                  <p>sales@unitedpharma.com</p>
+                  <p>info@unitedpharma.pk</p>
+                  <p>sales@unitedpharma.pk</p>
                 </div>
               </div>
             </div>

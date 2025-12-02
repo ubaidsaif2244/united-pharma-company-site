@@ -63,9 +63,9 @@ function ContactUs() {
       ),
       title: 'Address',
       details: [
-        '123 Pharmaceutical Drive',
-        'Medical District, NY 10001',
-        'United States'
+        'Plot 45-A, Sector 22, SITE',
+        'Karachi, Sindh 75700',
+        'Pakistan'
       ]
     },
     {
@@ -76,8 +76,8 @@ function ContactUs() {
       ),
       title: 'Phone',
       details: [
-        '+1 (555) 123-4567',
-        '+1 (555) 123-4568'
+        '+92 21 3456-7890',
+        '+92 21 3456-7891'
       ]
     },
     {
@@ -89,8 +89,8 @@ function ContactUs() {
       ),
       title: 'Email',
       details: [
-        'info@unitedpharma.com',
-        'sales@unitedpharma.com'
+        'info@unitedpharma.pk',
+        'sales@unitedpharma.pk'
       ]
     },
     {
@@ -335,7 +335,7 @@ function ContactUs() {
                 </svg>
               </div>
               <h3>Interactive Map</h3>
-              <p>123 Pharmaceutical Drive, Medical District, NY 10001</p>
+              <p>Plot 45-A, Sector 22, SITE, Karachi, Sindh 75700</p>
               <button className="map-btn">View on Google Maps</button>
             </div>
           </div>
