@@ -191,7 +191,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **United Pharma**
 - Website: [https://unitedpharma.com](https://unitedpharma.com)
 - Email: info@unitedpharma.com
-- Phone: +1 (555) 123-4567
+- Phone: +92 1234567
 
 **Developer**
 - GitHub: [@ubaidsaif2244](https://github.com/ubaidsaif2244)
