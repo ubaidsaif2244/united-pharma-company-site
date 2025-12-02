@@ -11,42 +11,42 @@ function Packaging() {
       id: 1,
       name: 'Bottles',
       description: 'Premium glass and plastic bottles for liquid formulations with tamper-evident closures',
-      image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://i.imgur.com/7d0BGcI.jpeg',
       features: ['Child-resistant caps', 'UV protection', 'Various sizes']
     },
     {
       id: 2,
       name: 'Blisters',
       description: 'High-barrier blister packs ensuring product integrity and extended shelf life',
-      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://i.imgur.com/oGSp50D.jpeg',
       features: ['Moisture protection', 'Unit dose accuracy', 'Tamper evidence']
     },
     {
       id: 3,
       name: 'Sachets',
       description: 'Flexible sachets for powders and granules with excellent barrier properties',
-      image: 'https://images.unsplash.com/photo-1582719471384-894fbb16e074?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://i.imgur.com/6PwCFGi.jpeg',
       features: ['Easy tear design', 'Moisture barrier', 'Portion control']
     },
     {
       id: 4,
       name: 'Jars',
       description: 'Wide-mouth jars perfect for creams, ointments, and solid formulations',
-      image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://i.imgur.com/SUC9xBN.jpeg',
       features: ['Wide opening', 'Airtight seal', 'Easy application']
     },
     {
       id: 5,
       name: 'Tubes',
       description: 'Collapsible tubes for topical applications with precise dispensing control',
-      image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://i.imgur.com/PBMtono.jpeg',
       features: ['Controlled dispensing', 'Hygienic application', 'Portable design']
     },
     {
       id: 6,
       name: 'Boxes',
       description: 'Pharmaceutical-grade cartons with security features and brand protection',
-      image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://i.imgur.com/5inrbKY.jpeg',
       features: ['Security features', 'Brand protection', 'Information display']
     }
   ]
