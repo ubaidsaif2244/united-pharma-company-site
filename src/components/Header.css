@@ -167,7 +167,7 @@
 
 .header__brand-text {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -177,6 +177,7 @@
   background-clip: text;
   transition: var(--transition-fast);
   position: relative;
+  white-space: nowrap;
 }
 
 .header__brand-text::after {
@@ -444,6 +445,11 @@
   .header__icons-right {
     gap: 1rem;
   }
+  
+  .header__brand-text {
+    font-size: 1.45rem;
+    letter-spacing: 0.06em;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -456,6 +462,12 @@
   
   .header__brand {
     justify-content: flex-start; /* Left align on desktop */
+  }
+  
+  .header__brand-text {
+    font-size: 1.4rem;
+    letter-spacing: 0.08em;
+    font-weight: 600;
   }
   
   .header__icons-right {

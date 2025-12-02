@@ -152,7 +152,7 @@ function TollProducts() {
 
             <div className="product-card">
               <div className="product-image">
-                <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Vitamin capsules manufacturing" />
+                <img src="https://i.postimg.cc/L4LhBCcS/85c11aff2297974a017664caa16ec4d3.jpg" alt="Vitamin capsules manufacturing" />
                 <div className="product-overlay">
                   <div className="overlay-badge">FDA Approved</div>
                 </div>
@@ -179,7 +179,7 @@ function TollProducts() {
 
             <div className="product-card">
               <div className="product-image">
-                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Pediatric syrup manufacturing" />
+                <img src="https://i.postimg.cc/C5KWZct4/f37fccec1386750d27002cdb463e207e.jpg" alt="Pediatric syrup manufacturing" />
                 <div className="product-overlay">
                   <div className="overlay-badge">Child Safe</div>
                 </div>
@@ -206,7 +206,7 @@ function TollProducts() {
 
             <div className="product-card">
               <div className="product-image">
-                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Injectable solutions manufacturing" />
+                <img src="https://i.postimg.cc/rstNYWRn/06ebe2167fa15e2c052bd2ff522aba65.jpg" alt="Injectable solutions manufacturing" />
                 <div className="product-overlay">
                   <div className="overlay-badge">Sterile</div>
                 </div>
