@@ -56,7 +56,7 @@ function AboutUs() {
               </p>
             </div>
             <div className="intro-image">
-              <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pharmaceutical facility" />
+              <img src="https://i.postimg.cc/5tn57FwS/2b218345934f046c6dc48881fb743233.jpg" alt="Pharmaceutical facility" />
             </div>
           </div>
         </div>
@@ -226,7 +226,7 @@ function AboutUs() {
           <div className="facilities-grid">
             <div className="facility-card">
               <div className="facility-image">
-                <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Manufacturing facility" />
+                <img src="https://i.postimg.cc/sxp4JHKH/0affabcc25ac4299770eb3bb177190ab.jpg" alt="Manufacturing facility" />
               </div>
               <div className="facility-content">
                 <h3>Advanced Manufacturing</h3>
@@ -238,7 +238,7 @@ function AboutUs() {
             </div>
             <div className="facility-card">
               <div className="facility-image">
-                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Research laboratory" />
+                <img src="https://i.postimg.cc/6qYywdpz/a7f92f875110d6bdcf0a0474c95597a5.jpg" alt="Research laboratory" />
               </div>
               <div className="facility-content">
                 <h3>Research & Development</h3>
@@ -250,7 +250,7 @@ function AboutUs() {
             </div>
             <div className="facility-card">
               <div className="facility-image">
-                <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Quality control lab" />
+                <img src="https://i.postimg.cc/brNw6s9n/ddebd7ae801b5c1efb8668c44dcbce92.jpg" alt="Quality control lab" />
               </div>
               <div className="facility-content">
                 <h3>Quality Control Labs</h3>
