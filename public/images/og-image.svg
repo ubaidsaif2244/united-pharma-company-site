@@ -1,0 +1,74 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a365d"/>
+      <stop offset="100%" stop-color="#2d3748"/>
+    </linearGradient>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4299e1"/>
+      <stop offset="100%" stop-color="#3182ce"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Background pattern -->
+  <defs>
+    <pattern id="grid" patternUnits="userSpaceOnUse" width="40" height="40">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  
+  <!-- Main content area -->
+  <rect x="100" y="100" width="1000" height="430" fill="rgba(255,255,255,0.05)" rx="20"/>
+  
+  <!-- Logo area -->
+  <circle cx="300" cy="250" r="80" fill="url(#logoGradient)"/>
+  <text x="300" y="260" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">UP</text>
+  
+  <!-- Company name -->
+  <text x="420" y="220" fill="white" font-family="Arial, sans-serif" font-size="48" font-weight="bold">United Pharma</text>
+  <text x="420" y="260" fill="#a0aec0" font-family="Arial, sans-serif" font-size="24">Excellence in Pharmaceutical Innovation</text>
+  <text x="420" y="300" fill="#cbd5e0" font-family="Arial, sans-serif" font-size="18">Leading manufacturer of high-quality medicines</text>
+  
+  <!-- Pharmaceutical elements -->
+  <!-- Pills -->
+  <ellipse cx="900" cy="200" rx="20" ry="10" fill="#4299e1"/>
+  <ellipse cx="950" cy="180" rx="18" ry="9" fill="#48bb78"/>
+  <ellipse cx="980" cy="220" rx="16" ry="8" fill="#ed8936"/>
+  
+  <!-- Capsules -->
+  <g>
+    <ellipse cx="850" cy="300" rx="12" ry="24" fill="#e53e3e"/>
+    <ellipse cx="850" cy="300" rx="12" ry="12" fill="#fed7d7"/>
+  </g>
+  
+  <g>
+    <ellipse cx="920" cy="320" rx="10" ry="20" fill="#9f7aea"/>
+    <ellipse cx="920" cy="320" rx="10" ry="10" fill="#e9d8fd"/>
+  </g>
+  
+  <!-- Molecules -->
+  <g opacity="0.6">
+    <circle cx="200" cy="400" r="6" fill="#4299e1"/>
+    <circle cx="220" cy="390" r="4" fill="#48bb78"/>
+    <circle cx="240" cy="405" r="4" fill="#ed8936"/>
+    <line x1="200" y1="400" x2="220" y2="390" stroke="#cbd5e0" stroke-width="2"/>
+    <line x1="220" y1="390" x2="240" y2="405" stroke="#cbd5e0" stroke-width="2"/>
+  </g>
+  
+  <!-- Certifications -->
+  <rect x="150" y="350" width="60" height="40" fill="rgba(255,255,255,0.1)" rx="8"/>
+  <text x="180" y="375" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">FDA</text>
+  
+  <rect x="230" y="350" width="60" height="40" fill="rgba(255,255,255,0.1)" rx="8"/>
+  <text x="260" y="375" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">GMP</text>
+  
+  <rect x="310" y="350" width="60" height="40" fill="rgba(255,255,255,0.1)" rx="8"/>
+  <text x="340" y="375" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">ISO</text>
+  
+  <!-- Bottom text -->
+  <text x="600" y="580" text-anchor="middle" fill="#a0aec0" font-family="Arial, sans-serif" font-size="16">Trusted Healthcare Solutions Since 2003</text>
+</svg>

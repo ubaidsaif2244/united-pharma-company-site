@@ -1,0 +1,68 @@
+.counter-animation {
+  display: inline-block;
+  font-weight: inherit;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.counter-animation:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive stats layout */
+@media (max-width: 768px) {
+  .stats-container,
+  .hero-stats {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    gap: 1rem !important;
+  }
+  
+  .stats-item,
+  .stat-item,
+  .stat {
+    flex: 1 !important;
+    min-width: calc(50% - 0.5rem) !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  /* For 3 or 4 items, make them 2x2 grid on mobile */
+  .stats-container:has(.stats-item:nth-child(3)),
+  .hero-stats:has(.stat-item:nth-child(3)) {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1rem !important;
+  }
+  
+  .stats-container:has(.stats-item:nth-child(4)),
+  .hero-stats:has(.stat-item:nth-child(4)) {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-container,
+  .hero-stats {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0.75rem !important;
+  }
+  
+  .stats-item,
+  .stat-item,
+  .stat {
+    text-align: center !important;
+    padding: 1rem 0.5rem !important;
+  }
+  
+  .stat-number {
+    font-size: 1.5rem !important;
+  }
+  
+  .stat-label {
+    font-size: 0.8rem !important;
+  }
+}

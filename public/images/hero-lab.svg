@@ -1,0 +1,79 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroBackground" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#667eea"/>
+      <stop offset="100%" stop-color="#764ba2"/>
+    </linearGradient>
+    <linearGradient id="labGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="equipmentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#f6ad55"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background matching hero gradient -->
+  <rect width="600" height="400" fill="url(#heroBackground)"/>
+  
+  <!-- Lab Table -->
+  <rect x="50" y="250" width="500" height="100" fill="url(#labGradient)" rx="8" opacity="0.9"/>
+  <rect x="50" y="240" width="500" height="20" fill="rgba(255,255,255,0.8)" rx="8"/>
+  
+  <!-- Equipment -->
+  <!-- Microscope -->
+  <rect x="100" y="180" width="60" height="80" fill="url(#equipmentGradient)" rx="4"/>
+  <circle cx="130" cy="160" r="15" fill="rgba(255,255,255,0.9)"/>
+  <rect x="125" y="145" width="10" height="30" fill="rgba(255,255,255,0.7)"/>
+  
+  <!-- Beakers -->
+  <ellipse cx="220" cy="220" rx="20" ry="30" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="3"/>
+  <rect x="200" y="210" width="40" height="2" fill="rgba(255,255,255,0.8)"/>
+  <ellipse cx="220" cy="210" rx="18" ry="5" fill="rgba(255,255,255,0.4)"/>
+  
+  <ellipse cx="280" cy="230" rx="15" ry="25" fill="none" stroke="#ffd700" stroke-width="3"/>
+  <rect x="265" y="220" width="30" height="2" fill="#ffd700"/>
+  <ellipse cx="280" cy="220" rx="13" ry="4" fill="rgba(255,215,0,0.4)"/>
+  
+  <!-- Computer/Monitor -->
+  <rect x="350" y="180" width="80" height="60" fill="rgba(255,255,255,0.9)" rx="4"/>
+  <rect x="355" y="185" width="70" height="45" fill="rgba(102,126,234,0.6)" rx="2"/>
+  <rect x="360" y="190" width="60" height="35" fill="rgba(255,255,255,0.95)" rx="2"/>
+  
+  <!-- Pills/Tablets scattered -->
+  <circle cx="450" cy="200" r="8" fill="#ffd700"/>
+  <circle cx="470" cy="210" r="6" fill="rgba(255,255,255,0.8)"/>
+  <circle cx="490" cy="195" r="7" fill="#f6ad55"/>
+  
+  <!-- Test tubes rack -->
+  <rect x="120" y="200" width="40" height="50" fill="rgba(255,255,255,0.8)" rx="2"/>
+  <circle cx="130" cy="205" r="3" fill="#ffd700"/>
+  <circle cx="140" cy="205" r="3" fill="rgba(255,255,255,0.9)"/>
+  <circle cx="150" cy="205" r="3" fill="#f6ad55"/>
+  
+  <!-- Floating molecules -->
+  <g opacity="0.8">
+    <circle cx="80" cy="100" r="4" fill="rgba(255,255,255,0.9)"/>
+    <circle cx="95" cy="90" r="3" fill="#ffd700"/>
+    <circle cx="110" cy="105" r="3" fill="#f6ad55"/>
+    <line x1="80" y1="100" x2="95" y2="90" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
+    <line x1="95" y1="90" x2="110" y2="105" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
+  </g>
+  
+  <g opacity="0.8">
+    <circle cx="480" cy="80" r="4" fill="rgba(255,255,255,0.9)"/>
+    <circle cx="495" cy="70" r="3" fill="#ffd700"/>
+    <circle cx="510" cy="85" r="3" fill="#f6ad55"/>
+    <line x1="480" y1="80" x2="495" y2="70" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
+    <line x1="495" y1="70" x2="510" y2="85" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
+  </g>
+  
+  <!-- Background pattern -->
+  <defs>
+    <pattern id="dots" patternUnits="userSpaceOnUse" width="20" height="20">
+      <circle cx="10" cy="10" r="1" fill="rgba(255,255,255,0.2)" opacity="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="400" fill="url(#dots)" opacity="0.3"/>
+</svg>

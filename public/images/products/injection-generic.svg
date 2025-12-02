@@ -1,0 +1,8 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#f8fafc"/>
+  <rect x="85" y="60" width="30" height="80" rx="4" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="90" y="65" width="20" height="60" fill="#ef4444" opacity="0.3"/>
+  <rect x="95" y="50" width="10" height="15" rx="2" fill="#64748b"/>
+  <circle cx="100" cy="45" r="3" fill="#64748b"/>
+  <text x="100" y="170" textAnchor="middle" fill="#64748b" fontFamily="Inter, sans-serif" fontSize="12">Injection</text>
+</svg>

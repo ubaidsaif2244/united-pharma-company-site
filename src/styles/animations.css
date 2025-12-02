@@ -1,0 +1,254 @@
+/* Global Scroll Animations */
+
+/* Base animation styles */
+.fade-in,
+.slide-up,
+.slide-left,
+.slide-right,
+.scale-in {
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: transform, opacity;
+}
+
+/* Fade In Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.fade-in.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Slide Up Animation */
+.slide-up {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.slide-up.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Slide Left Animation */
+.slide-left {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+
+.slide-left.animate-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Slide Right Animation */
+.slide-right {
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.slide-right.animate-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Scale In Animation */
+.scale-in {
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.scale-in.animate-in {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Staggered animations for multiple elements */
+.animate-stagger > * {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.animate-stagger.animate-in > *:nth-child(1) { transition-delay: 0.1s; }
+.animate-stagger.animate-in > *:nth-child(2) { transition-delay: 0.2s; }
+.animate-stagger.animate-in > *:nth-child(3) { transition-delay: 0.3s; }
+.animate-stagger.animate-in > *:nth-child(4) { transition-delay: 0.4s; }
+.animate-stagger.animate-in > *:nth-child(5) { transition-delay: 0.5s; }
+.animate-stagger.animate-in > *:nth-child(6) { transition-delay: 0.6s; }
+
+.animate-stagger.animate-in > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Specific element animations */
+section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+section.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero content animations */
+.hero-content h1 {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-delay: 0.2s;
+}
+
+.hero-content p {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-delay: 0.4s;
+}
+
+.hero-content .hero-buttons {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-delay: 0.6s;
+}
+
+.hero-content.animate-in h1,
+.hero-content.animate-in p,
+.hero-content.animate-in .hero-buttons {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Card animations */
+.product-card,
+.service-card,
+.feature-card {
+  opacity: 0;
+  transform: translateY(30px) scale(0.95);
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.product-card.animate-in,
+.service-card.animate-in,
+.feature-card.animate-in {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Stats animations */
+.stats-item {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.stats-item.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Form animations */
+.contact-form {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.contact-form.animate-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Gallery animations */
+.gallery-item {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.gallery-item.animate-in {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Process step animations */
+.process-step {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.process-step.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Testimonial animations */
+.testimonial-card {
+  opacity: 0;
+  transform: translateY(30px) rotateX(10deg);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.testimonial-card.animate-in {
+  opacity: 1;
+  transform: translateY(0) rotateX(0deg);
+}
+
+/* Reduced motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .fade-in,
+  .slide-up,
+  .slide-left,
+  .slide-right,
+  .scale-in,
+  section,
+  .hero-content h1,
+  .hero-content p,
+  .hero-content .hero-buttons,
+  .product-card,
+  .service-card,
+  .feature-card,
+  .stats-item,
+  .contact-form,
+  .gallery-item,
+  .process-step,
+  .testimonial-card {
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Performance optimizations */
+.fade-in,
+.slide-up,
+.slide-left,
+.slide-right,
+.scale-in {
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Loading state animations */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.loading-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Removed excessive animations for better performance and professional look */
