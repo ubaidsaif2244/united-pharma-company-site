@@ -26,6 +26,8 @@
   color: #1a365d;
   margin: 0 0 16px 0;
   letter-spacing: -1px;
+  text-align: center;
+  line-height: 1.2;
 }
 
 .last-updated {
@@ -33,6 +35,7 @@
   color: #4a5568;
   margin: 0;
   font-style: italic;
+  text-align: center;
 }
 
 /* Legal Content */
@@ -58,6 +61,8 @@
   margin: 0 0 24px 0;
   padding-bottom: 12px;
   border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+  line-height: 1.3;
 }
 
 .legal-section h3 {
@@ -66,6 +71,8 @@
   font-weight: 600;
   color: #2d3748;
   margin: 32px 0 16px 0;
+  text-align: left;
+  line-height: 1.3;
 }
 
 .legal-section h4 {
@@ -74,6 +81,8 @@
   font-weight: 600;
   color: #2d3748;
   margin: 24px 0 12px 0;
+  text-align: left;
+  line-height: 1.3;
 }
 
 .legal-section p {
@@ -81,6 +90,7 @@
   line-height: 1.7;
   color: #4a5568;
   margin: 0 0 16px 0;
+  text-align: left;
 }
 
 .legal-section ul,
@@ -133,6 +143,8 @@
   font-weight: 600;
   color: #1a365d;
   margin: 0 0 12px 0;
+  text-align: left;
+  line-height: 1.3;
 }
 
 .purpose-item p {
@@ -163,6 +175,8 @@
   font-weight: 600;
   color: #1a365d;
   margin: 0 0 8px 0;
+  text-align: left;
+  line-height: 1.3;
 }
 
 .right-item p {
@@ -190,6 +204,8 @@
   font-weight: 600;
   color: #1a365d;
   margin: 0 0 16px 0;
+  text-align: left;
+  line-height: 1.3;
 }
 
 .cookie-examples {
@@ -350,6 +366,8 @@
   font-weight: 600;
   color: #1a365d;
   margin: 0 0 16px 0;
+  text-align: left;
+  line-height: 1.3;
 }
 
 .standard-details {
@@ -502,6 +520,8 @@
   font-weight: 600;
   color: #1a365d;
   margin: 0 0 8px 0;
+  text-align: left;
+  line-height: 1.3;
 }
 
 .contact-method p {
@@ -602,6 +622,36 @@
   .contact-info {
     padding: 20px;
   }
+}
+
+/* Additional Heading Alignment Rules */
+.legal-content h1,
+.legal-content h2,
+.legal-content h3,
+.legal-content h4,
+.legal-content h5,
+.legal-content h6 {
+  text-align: left;
+  line-height: 1.3;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.legal-header h1 {
+  text-align: center !important;
+}
+
+/* Ensure all text content is left-aligned */
+.legal-content p,
+.legal-content li,
+.legal-content div {
+  text-align: left;
+}
+
+/* Center-align specific elements that should be centered */
+.legal-header,
+.legal-header * {
+  text-align: center;
 }
 
 /* Print Styles */
