@@ -74,7 +74,8 @@ function NutraceuticalsProducts() {
       id: 1,
       name: 'Vitamin D3 5000 IU',
       benefit: 'Supports bone health and immune function',
-      image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://i.imgur.com/3H4onRd.jpeg',
+      fallbackImage: '/images/nutraceuticals/vitamin-d3-generic.svg',
       category: 'Vitamins',
       badges: ['Non-GMO', 'Third-Party Tested']
     },
@@ -82,7 +83,8 @@ function NutraceuticalsProducts() {
       id: 2,
       name: 'Omega-3 Fish Oil',
       benefit: 'Promotes heart and brain health naturally',
-      image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: '/images/nutraceuticals/real/omega3-real.jpg',
+      fallbackImage: '/images/nutraceuticals/supplement-generic.svg',
       category: 'Supplements',
       badges: ['Organic', 'Sustainably Sourced']
     },
@@ -90,7 +92,8 @@ function NutraceuticalsProducts() {
       id: 3,
       name: 'Turmeric Curcumin',
       benefit: 'Natural anti-inflammatory and antioxidant support',
-      image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: '/images/nutraceuticals/real/turmeric-real.jpg',
+      fallbackImage: '/images/nutraceuticals/supplement-generic.svg',
       category: 'Herbal',
       badges: ['Organic', 'Non-GMO']
     },
@@ -98,7 +101,8 @@ function NutraceuticalsProducts() {
       id: 4,
       name: 'Immune Defense Complex',
       benefit: 'Strengthens immune system with natural ingredients',
-      image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: '/images/nutraceuticals/real/immune-complex-real.jpg',
+      fallbackImage: '/images/nutraceuticals/supplement-generic.svg',
       category: 'Energy & Immunity',
       badges: ['Clinically Tested', 'Non-GMO']
     },
@@ -106,7 +110,8 @@ function NutraceuticalsProducts() {
       id: 5,
       name: 'Collagen Beauty Blend',
       benefit: 'Enhances skin elasticity and hair strength',
-      image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: '/images/nutraceuticals/real/collagen-real.jpg',
+      fallbackImage: '/images/nutraceuticals/supplement-generic.svg',
       category: 'Skin & Hair Care',
       badges: ['Organic', 'Gluten-Free']
     },
@@ -114,7 +119,8 @@ function NutraceuticalsProducts() {
       id: 6,
       name: 'B-Complex Energy',
       benefit: 'Boosts energy and supports nervous system',
-      image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: '/images/nutraceuticals/real/b-complex-real.jpg',
+      fallbackImage: '/images/nutraceuticals/supplement-generic.svg',
       category: 'Vitamins',
       badges: ['Vegan', 'Non-GMO']
     },
@@ -122,7 +128,8 @@ function NutraceuticalsProducts() {
       id: 7,
       name: 'Probiotics Advanced',
       benefit: 'Supports digestive health and gut microbiome',
-      image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: '/images/nutraceuticals/real/probiotics-real.jpg',
+      fallbackImage: '/images/nutraceuticals/supplement-generic.svg',
       category: 'Supplements',
       badges: ['Refrigerated', 'Clinically Proven']
     },
@@ -130,7 +137,8 @@ function NutraceuticalsProducts() {
       id: 8,
       name: 'Ashwagandha Root',
       benefit: 'Reduces stress and promotes mental clarity',
-      image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: '/images/nutraceuticals/real/ashwagandha-real.jpg',
+      fallbackImage: '/images/nutraceuticals/supplement-generic.svg',
       category: 'Herbal',
       badges: ['Organic', 'Adaptogenic']
     },
@@ -138,7 +146,8 @@ function NutraceuticalsProducts() {
       id: 9,
       name: 'Energy Boost Formula',
       benefit: 'Natural energy without caffeine crash',
-      image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: '/images/nutraceuticals/real/energy-boost-real.jpg',
+      fallbackImage: '/images/nutraceuticals/supplement-generic.svg',
       category: 'Energy & Immunity',
       badges: ['Caffeine-Free', 'Natural']
     }
@@ -284,7 +293,14 @@ function NutraceuticalsProducts() {
             {products.map(product => (
               <div key={product.id} className="product-card">
                 <div className="product-image-container">
-                  <img src={product.image} alt={product.name} className="product-image" />
+                  <img 
+                    src={product.image} 
+                    alt={product.name} 
+                    className="product-image"
+                    onError={(e) => {
+                      e.target.src = product.fallbackImage;
+                    }}
+                  />
                   <div className="product-badges">
                     {product.badges.map((badge, index) => (
                       <span key={index} className="product-badge">{badge}</span>

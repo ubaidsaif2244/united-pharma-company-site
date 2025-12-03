@@ -1,0 +1,33 @@
+<svg viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dotsGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Animated Dots -->
+  <circle cx="15" cy="15" r="6" fill="url(#dotsGradient)">
+    <animate attributeName="opacity" dur="1.4s" values="0.2;1;0.2" repeatCount="indefinite" begin="0s"/>
+    <animate attributeName="r" dur="1.4s" values="4;6;4" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  
+  <circle cx="40" cy="15" r="6" fill="url(#dotsGradient)">
+    <animate attributeName="opacity" dur="1.4s" values="0.2;1;0.2" repeatCount="indefinite" begin="0.2s"/>
+    <animate attributeName="r" dur="1.4s" values="4;6;4" repeatCount="indefinite" begin="0.2s"/>
+  </circle>
+  
+  <circle cx="65" cy="15" r="6" fill="url(#dotsGradient)">
+    <animate attributeName="opacity" dur="1.4s" values="0.2;1;0.2" repeatCount="indefinite" begin="0.4s"/>
+    <animate attributeName="r" dur="1.4s" values="4;6;4" repeatCount="indefinite" begin="0.4s"/>
+  </circle>
+  
+  <circle cx="90" cy="15" r="6" fill="url(#dotsGradient)">
+    <animate attributeName="opacity" dur="1.4s" values="0.2;1;0.2" repeatCount="indefinite" begin="0.6s"/>
+    <animate attributeName="r" dur="1.4s" values="4;6;4" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+  
+  <!-- Brand Text -->
+  <text x="60" y="25" text-anchor="middle" font-family="'Inter', sans-serif" font-size="8" font-weight="500" fill="#64748b">Loading...</text>
+</svg>

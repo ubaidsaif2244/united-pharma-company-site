@@ -245,7 +245,7 @@ function Home() {
             <div className="product-card feature-card">
               <div className="product-image">
                 <img 
-                  src="/images/pharmaceutical-tablets.svg" 
+                  src="https://i.imgur.com/ZEthWjl.jpeg" 
                   alt="Pharmaceutical Tablets" 
                   className="product-img"
                 />
@@ -268,9 +268,12 @@ function Home() {
             <div className="product-card feature-card">
               <div className="product-image">
                 <img 
-                  src="/images/products/capsule-generic.svg" 
+                  src="https://i.imgur.com/QmepGwF.jpeg" 
                   alt="Pharmaceutical Capsules" 
                   className="product-img"
+                  onError={(e) => {
+                    e.target.src = "/images/products/capsule-generic.svg";
+                  }}
                 />
                 <div className="product-overlay">
                   <button className="view-details-btn">View Details</button>
@@ -291,9 +294,12 @@ function Home() {
             <div className="product-card feature-card">
               <div className="product-image">
                 <img 
-                  src="/images/products/injection-generic.svg" 
+                  src="https://i.imgur.com/K9xfxPB.jpeg" 
                   alt="Injectable Solutions" 
                   className="product-img"
+                  onError={(e) => {
+                    e.target.src = "/images/products/injection-generic.svg";
+                  }}
                 />
                 <div className="product-overlay">
                   <button className="view-details-btn">View Details</button>
@@ -314,9 +320,12 @@ function Home() {
             <div className="product-card feature-card">
               <div className="product-image">
                 <img 
-                  src="/images/products/syrup-generic.svg" 
+                  src="https://i.imgur.com/LTlrFq3.jpeg" 
                   alt="Liquid Formulations" 
                   className="product-img"
+                  onError={(e) => {
+                    e.target.src = "/images/products/syrup-generic.svg";
+                  }}
                 />
                 <div className="product-overlay">
                   <button className="view-details-btn">View Details</button>

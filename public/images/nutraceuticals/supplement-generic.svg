@@ -1,0 +1,44 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bottleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="capGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f8fafc"/>
+  
+  <!-- Bottle -->
+  <rect x="150" y="80" width="100" height="200" rx="15" fill="url(#bottleGradient)" stroke="#cbd5e1" stroke-width="2"/>
+  
+  <!-- Cap -->
+  <rect x="160" y="60" width="80" height="25" rx="8" fill="url(#capGradient)"/>
+  
+  <!-- Label -->
+  <rect x="160" y="140" width="80" height="80" fill="rgba(255,255,255,0.95)" rx="4"/>
+  <text x="200" y="160" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif" font-size="9" font-weight="bold">SUPPLEMENT</text>
+  <text x="200" y="175" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="7">Premium Quality</text>
+  <text x="200" y="190" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="7">60 Capsules</text>
+  <text x="200" y="205" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="6">United Pharma</text>
+  
+  <!-- Capsules inside -->
+  <g opacity="0.6">
+    <ellipse cx="180" cy="250" rx="4" ry="8" fill="#3b82f6"/>
+    <ellipse cx="200" cy="245" rx="4" ry="8" fill="#3b82f6"/>
+    <ellipse cx="220" cy="250" rx="4" ry="8" fill="#3b82f6"/>
+    <ellipse cx="190" cy="265" rx="4" ry="8" fill="#3b82f6"/>
+    <ellipse cx="210" cy="260" rx="4" ry="8" fill="#3b82f6"/>
+  </g>
+  
+  <!-- Health symbol -->
+  <g transform="translate(200,320)">
+    <circle r="20" fill="rgba(34,197,94,0.1)" stroke="#22c55e" stroke-width="2"/>
+    <rect x="-2" y="-10" width="4" height="20" fill="#22c55e"/>
+    <rect x="-10" y="-2" width="20" height="4" fill="#22c55e"/>
+  </g>
+</svg>

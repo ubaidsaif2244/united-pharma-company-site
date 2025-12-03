@@ -1,0 +1,88 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="capsuleTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="capsuleBottom" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="bottleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <radialGradient id="capsuleShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.1)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.2)"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8fafc"/>
+  
+  <!-- Medicine Bottle -->
+  <rect x="150" y="80" width="100" height="140" rx="12" fill="url(#bottleGradient)" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="160" y="60" width="80" height="25" rx="6" fill="#475569"/>
+  <rect x="165" y="65" width="70" height="15" rx="3" fill="#334155"/>
+  
+  <!-- Bottle Label -->
+  <rect x="160" y="120" width="80" height="60" fill="rgba(255,255,255,0.95)" rx="4"/>
+  <rect x="165" y="125" width="70" height="8" fill="#3b82f6" opacity="0.3" rx="2"/>
+  <text x="200" y="140" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif" font-size="8" font-weight="bold">CAPSULES</text>
+  <text x="200" y="152" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="7">250mg x 30</text>
+  <text x="200" y="164" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="6">United Pharma</text>
+  <text x="200" y="174" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="6">Exp: 12/2025</text>
+  
+  <!-- Scattered Capsules -->
+  <!-- Capsule 1 -->
+  <g transform="translate(80,120) rotate(-15)">
+    <ellipse cx="0" cy="-8" rx="8" ry="16" fill="url(#capsuleShadow)"/>
+    <ellipse cx="0" cy="-8" rx="6" ry="14" fill="url(#capsuleTop)"/>
+    <ellipse cx="0" cy="8" rx="6" ry="14" fill="url(#capsuleBottom)"/>
+    <line x1="-6" y1="0" x2="6" y2="0" stroke="#cbd5e1" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Capsule 2 -->
+  <g transform="translate(320,140) rotate(25)">
+    <ellipse cx="0" cy="-8" rx="8" ry="16" fill="url(#capsuleShadow)"/>
+    <ellipse cx="0" cy="-8" rx="6" ry="14" fill="url(#capsuleTop)"/>
+    <ellipse cx="0" cy="8" rx="6" ry="14" fill="url(#capsuleBottom)"/>
+    <line x1="-6" y1="0" x2="6" y2="0" stroke="#cbd5e1" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Capsule 3 -->
+  <g transform="translate(100,200) rotate(45)">
+    <ellipse cx="0" cy="-8" rx="8" ry="16" fill="url(#capsuleShadow)"/>
+    <ellipse cx="0" cy="-8" rx="6" ry="14" fill="url(#capsuleTop)"/>
+    <ellipse cx="0" cy="8" rx="6" ry="14" fill="url(#capsuleBottom)"/>
+    <line x1="-6" y1="0" x2="6" y2="0" stroke="#cbd5e1" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Capsule 4 -->
+  <g transform="translate(300,200) rotate(-30)">
+    <ellipse cx="0" cy="-8" rx="8" ry="16" fill="url(#capsuleShadow)"/>
+    <ellipse cx="0" cy="-8" rx="6" ry="14" fill="url(#capsuleTop)"/>
+    <ellipse cx="0" cy="8" rx="6" ry="14" fill="url(#capsuleBottom)"/>
+    <line x1="-6" y1="0" x2="6" y2="0" stroke="#cbd5e1" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Capsule 5 -->
+  <g transform="translate(60,160) rotate(60)">
+    <ellipse cx="0" cy="-8" rx="8" ry="16" fill="url(#capsuleShadow)"/>
+    <ellipse cx="0" cy="-8" rx="6" ry="14" fill="url(#capsuleTop)"/>
+    <ellipse cx="0" cy="8" rx="6" ry="14" fill="url(#capsuleBottom)"/>
+    <line x1="-6" y1="0" x2="6" y2="0" stroke="#cbd5e1" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Floating particles for pharmaceutical effect -->
+  <circle cx="120" cy="100" r="2" fill="#3b82f6" opacity="0.4"/>
+  <circle cx="280" cy="120" r="1.5" fill="#3b82f6" opacity="0.5"/>
+  <circle cx="340" cy="180" r="2.5" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="40" cy="220" r="2" fill="#3b82f6" opacity="0.4"/>
+  
+  <!-- Quality seal -->
+  <circle cx="350" cy="50" r="20" fill="rgba(59,130,246,0.1)" stroke="#3b82f6" stroke-width="2"/>
+  <text x="350" y="48" text-anchor="middle" fill="#3b82f6" font-family="Arial, sans-serif" font-size="8" font-weight="bold">GMP</text>
+  <text x="350" y="58" text-anchor="middle" fill="#3b82f6" font-family="Arial, sans-serif" font-size="6">CERT</text>
+</svg>

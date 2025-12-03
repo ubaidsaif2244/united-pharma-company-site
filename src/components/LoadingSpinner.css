@@ -37,6 +37,12 @@
   text-align: center;
 }
 
+/* SVG Loader Styles */
+.loading-spinner__svg {
+  display: block;
+  margin: 0 auto;
+}
+
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -46,5 +52,9 @@
   .loading-spinner__circle {
     animation: none;
     border-top-color: #3182ce;
+  }
+  
+  .loading-spinner__svg {
+    animation: none;
   }
 }

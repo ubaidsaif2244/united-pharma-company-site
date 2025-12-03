@@ -1,0 +1,42 @@
+<svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Icon -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Circle -->
+    <circle cx="20" cy="20" r="18" fill="url(#logoGradient)" stroke="rgba(59,130,246,0.2)" stroke-width="2"/>
+    
+    <!-- Medical Cross -->
+    <rect x="17" y="10" width="6" height="20" rx="1" fill="white"/>
+    <rect x="10" y="17" width="20" height="6" rx="1" fill="white"/>
+    
+    <!-- Pharmaceutical Molecules -->
+    <circle cx="12" cy="12" r="2" fill="rgba(255,255,255,0.8)"/>
+    <circle cx="28" cy="12" r="1.5" fill="rgba(255,255,255,0.6)"/>
+    <circle cx="12" cy="28" r="1.5" fill="rgba(255,255,255,0.6)"/>
+    <circle cx="28" cy="28" r="2" fill="rgba(255,255,255,0.8)"/>
+    
+    <!-- Connection Lines -->
+    <line x1="12" y1="12" x2="17" y2="17" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+    <line x1="28" y1="12" x2="23" y2="17" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+    <line x1="12" y1="28" x2="17" y2="23" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+    <line x1="28" y1="28" x2="23" y2="23" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  </g>
+  
+  <!-- Company Text -->
+  <text x="55" y="25" font-family="'Josefin Sans', sans-serif" font-size="16" font-weight="700" fill="url(#textGradient)">UNITED</text>
+  <text x="55" y="42" font-family="'Josefin Sans', sans-serif" font-size="16" font-weight="700" fill="url(#textGradient)">PHARMA</text>
+  
+  <!-- Tagline -->
+  <text x="55" y="52" font-family="'Inter', sans-serif" font-size="8" font-weight="400" fill="#64748b">Excellence in Innovation</text>
+</svg>

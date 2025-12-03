@@ -1,0 +1,40 @@
+<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="spinnerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Ring -->
+  <circle cx="25" cy="25" r="20" fill="none" stroke="rgba(59,130,246,0.2)" stroke-width="4"/>
+  
+  <!-- Animated Ring -->
+  <circle cx="25" cy="25" r="20" fill="none" stroke="url(#spinnerGradient)" stroke-width="4" 
+          stroke-linecap="round" stroke-dasharray="31.416" stroke-dashoffset="31.416">
+    <animate attributeName="stroke-dasharray" dur="2s" values="0 31.416;15.708 15.708;0 31.416" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" dur="2s" values="0;-15.708;-31.416" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" dur="2s" values="0 25 25;360 25 25" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Center Medical Cross -->
+  <g opacity="0.8">
+    <rect x="22" y="18" width="6" height="14" rx="1" fill="url(#spinnerGradient)"/>
+    <rect x="18" y="22" width="14" height="6" rx="1" fill="url(#spinnerGradient)"/>
+  </g>
+  
+  <!-- Pulsing Molecules -->
+  <circle cx="15" cy="15" r="2" fill="#3b82f6" opacity="0.6">
+    <animate attributeName="opacity" dur="1.5s" values="0.6;1;0.6" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="35" cy="15" r="2" fill="#1d4ed8" opacity="0.6">
+    <animate attributeName="opacity" dur="1.5s" values="1;0.6;1" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="15" cy="35" r="2" fill="#1e40af" opacity="0.6">
+    <animate attributeName="opacity" dur="1.5s" values="0.6;1;0.6" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="35" cy="35" r="2" fill="#3b82f6" opacity="0.6">
+    <animate attributeName="opacity" dur="1.5s" values="1;0.6;1" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+</svg>
